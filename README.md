@@ -11,7 +11,9 @@ Operaciones Soportadas:
 Interfaz de Usuario:
   Entrada de dos operandos (A y B) de 4 bits y un código de operación de 2 bits mediante 10 interruptores (SW).
   Visualización de los operandos y el resultado en 4 displays de 7 segmentos.
+  
 Manejo de Errores ⚠️:
+
   El sistema opera en el rango BCD [0-9].
   Si un operando introducido es mayor que 9, el display correspondiente muestra una 'E'.
   Si la entrada es inválida, el resultado de la operación muestra "EE" para notificar al usuario.
